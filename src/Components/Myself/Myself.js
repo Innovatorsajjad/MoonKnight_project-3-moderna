@@ -14,8 +14,9 @@ const Myself = () => {
             </div>
 
 
-            <div className="Contact text-center">
+            <div className="Contact text-center my-3">
                 <h3>Contact With Us</h3>
+                <code>sk.sajjad4207@gmail.com</code>
             </div>
         </div>
 
