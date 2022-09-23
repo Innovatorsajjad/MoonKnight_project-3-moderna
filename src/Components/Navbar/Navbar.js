@@ -1,13 +1,14 @@
 import React from 'react';
+import { Routes, Route, Link } from "react-router-dom";
 
 const Navbar = () => {
     const MenuItems = <>
-        <li><a>Home</a></li>
-        <li><a>About</a></li>
-        <li><a>Services</a></li>
-        <li><a>Portfolio</a></li>
-        <li><a>Blog</a></li>
-        <li><a>Contact Us</a></li>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/about">About</Link></li>
+        <li><Link to="/services">Services</Link></li>
+        <li><Link to="/portfolio">Portfolio</Link></li>
+        <li><Link to="/blog">Blog</Link></li>
+        <li><Link to="/contactUs">Contact Us</Link></li>
 
 
     </>
@@ -23,7 +24,7 @@ const Navbar = () => {
                             {MenuItems}
                         </ul>
                     </div>
-                    <a className="btn btn-ghost normal-case text-xl"><h2 className='text-3xl uppercase'>Moderna</h2></a>
+                    <Link to="/" className="btn btn-ghost normal-case text-xl"><h2 className='text-3xl uppercase'>Moderna</h2></Link>
                 </div>
                 <div className="navbar-end hidden lg:flex">
                     <ul className="menu menu-horizontal p-0">
