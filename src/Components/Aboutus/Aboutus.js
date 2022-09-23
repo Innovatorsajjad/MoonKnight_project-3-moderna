@@ -4,7 +4,7 @@ const Aboutus = () => {
     return (
         <div className='bg-cyan-50'>
         <h2 className='text-center text-5xl uppercase py-10'>About us</h2>
-        <div className="fullBanner flex container mx-auto bg-white p-10 rounded">
+        <div className="fullBanner flex container mx-auto bg-white p-10 rounded flex-col md:flex-row">
             <div className="half-1">
                 <img  className='w-fit p-10' src="https://bootstrapmade.com/demo/templates/Moderna/assets/img/about.jpg" alt="" />
             </div>
