@@ -1,11 +1,12 @@
 import React from 'react';
+import BannerCard from '../../Components/BannerCard/BannerCard';
 import Cards from '../../Components/Cards/Cards';
 import "../Home/Home.css"
 
 const Home = () => {
     return (
-        <div>
-            <div className="hero min-h-screen bg-base-200">
+        <div className='bg-cyan-50'>
+            <div className="hero hero-section min-h-screen bg-base-200">
                 <div className="hero-content text-center text-white">
                     <div className="max-w-3xl">
                         <h1 className="text-5xl font-bold">Welcome to our service</h1>
@@ -15,6 +16,7 @@ const Home = () => {
                 </div>
             </div>
             <Cards/>
+            <BannerCard/>
         </div>
     );
 };
