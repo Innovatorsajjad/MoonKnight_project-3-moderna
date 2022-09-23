@@ -10,7 +10,6 @@ const Navbar = () => {
         <li><Link to="/blog">Blog</Link></li>
         <li><Link to="/contactUs">Contact Us</Link></li>
 
-
     </>
     return (
         <div>
