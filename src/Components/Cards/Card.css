@@ -1,0 +1,13 @@
+.card-body img {
+    width: 60px;
+    border-radius: 100%;
+    margin: auto;
+}
+.card{
+    transition: .5s;
+}
+.card:hover{
+    color: white;
+    background-color: #75A5C5;
+    
+}
