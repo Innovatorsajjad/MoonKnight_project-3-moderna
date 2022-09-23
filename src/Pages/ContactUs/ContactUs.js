@@ -1,9 +1,10 @@
 import React from 'react';
+import Myself from '../../Components/Myself/Myself';
 
 const ContactUs = () => {
     return (
         <div>
-            Here Is the contact us site...
+           <Myself/>
         </div>
     );
 };

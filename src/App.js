@@ -5,9 +5,10 @@ import Home from './Pages/Home/Home';
 import About from './Pages/About/About';
 import Blog from './Pages/Blog/Blog';
 import Services from './Pages/Services/Services';
-import Portfolio from './Pages/Portfolio/Portfolio'
 import ContactUs from './Pages/ContactUs/ContactUs';
 import Footer from './Components/Footer/Footer';
+import Team from './Pages/Team/Team';
+
 
 
 
@@ -20,7 +21,7 @@ function App() {
       <Route path="/about" element={<About/>} />
       <Route path="/blog" element={<Blog/>} />
       <Route path="/services" element={<Services/>} />
-      <Route path="/portfolio" element={<Portfolio/>} />
+      <Route path="/team" element={<Team/>} />
       <Route path="/contactUs" element={<ContactUs/>} />
     </Routes>
     <Footer/>
